@@ -1,0 +1,37 @@
+{
+  "author": {
+    "email": "openks@foxmail.com",
+    "name": "朱阳星"
+  },
+  "dependencies": {},
+  "description": "replace <link rel=\"important\" herf=\"a.html\"> with the content of another.html",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "74570739a405d03d5c9278ca2fdaa26916c71788",
+    "tarball": "https://registry.npmjs.org/gulp-pre-link/-/gulp-pre-link-2.0.0.tgz"
+  },
+  "keywords": [
+    "gulp"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "maintainers": [
+    {
+      "email": "openks@foxmail.com",
+      "name": "openks"
+    }
+  ],
+  "homepage": "https://github.com/openks/gulp-pre-link#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/openks/gulp-pre-link.git"
+  },
+  "name": "gulp-pre-link",
+  "optionalDependencies": {},
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "2.0.0"
+}
