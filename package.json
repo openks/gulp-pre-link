@@ -4,7 +4,7 @@
     "name": "朱阳星"
   },
   "dependencies": {},
-  "description": "replace <link rel=\"important\" herf=\"a.html\"> with the content of another.html",
+  "description": "replace link html with it's content ",
   "devDependencies": {},
   "directories": {},
   "dist": {
@@ -33,5 +33,5 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "2.0.0"
+  "version": "2.0.1"
 }
