@@ -33,7 +33,8 @@ module.exports = function(opts) {
 						var rel = result[1].replace(/^['"]|['"]$/g, '').toLowerCase();
 						if (rel === 'import') {
 							var addr = result[2].replace(/^['"]|['"]$/g, '').toLowerCase();
-							console.log("替换：" + file.history+" --- "+addr);
+							addr=opts.baseUrl+addr;
+							// console.log("changing.." + file.history+" --- "+addr);
 							addrs.push(addr);
 							results.push(result);
 						}

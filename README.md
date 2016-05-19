@@ -60,6 +60,20 @@ result：
 	</div>
 </div>
 ```
+
+```js
+var baseF="F:/code";//baseF="../code"
+gulp.task('html', function() {
+  var preLink = require('gulp-pre-link');
+	return   gulp.src(config.htmlSrc)
+	.pipe(preLink({baseUrl:baseF}))
+	.pipe(gulp.dest(config.htmlDec));
+});
+```
+
+* 2.2.0
+  * add new parameter baseUrl if there is no this parameter,the path is based on the same with gulpfile.js
+  * 新增参数 baseUrl 如果没有该参数则默认与gulpfile.js同级的相对路径
 * 2.0.0
   * deal with link more than one fix bug that can only import one  link label, <link rel="import" href="a.html">
   * 修复上一版本一次只能引入一个<link rel="import" href="a.html">的bug
