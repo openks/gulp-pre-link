@@ -3,7 +3,9 @@
     "email": "openks@foxmail.com",
     "name": "朱阳星"
   },
-  "dependencies": {},
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+  },
   "description": "replace link html with it's content ",
   "devDependencies": {},
   "directories": {},
@@ -13,6 +15,9 @@
   },
   "keywords": [
     "gulp"
+    ,"pre-link"
+    ,"gulp rel"
+    ,"gulp-pre-link"
   ],
   "license": "MIT",
   "main": "index.js",
