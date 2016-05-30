@@ -14,10 +14,11 @@
     "tarball": "https://registry.npmjs.org/gulp-pre-link/-/gulp-pre-link-2.0.0.tgz"
   },
   "keywords": [
-    "gulp"
-    ,"pre-link"
-    ,"gulp rel"
-    ,"gulp-pre-link"
+    "gulp",
+    "pre-link",
+    "gulp rel",
+    "gulp-pre-link",
+    "import"
   ],
   "license": "MIT",
   "main": "index.js",

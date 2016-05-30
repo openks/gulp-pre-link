@@ -8,6 +8,7 @@ var
 
 module.exports = function(opts) {
 	opts = opts || {};
+	opts.baseUrl = opts.baseUrl||"";
 	var stream = new Transform({
 		objectMode: true
 	});

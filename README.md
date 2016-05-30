@@ -14,7 +14,7 @@ widget/nav.html
 	<ul>
 		<li tag="0"><a href="index.html">首 页<br><span>HOME</span></a></li>
 		<li tag="140"><a href="index.html">新闻公告<br><span>NEWS</span></a></li>
-		<li tag="280"><a href="###">数据中心<br><span>DATA</span><p style="text-indent:160px"><a href="data-trailer.html">赛事预告</a><a href="data-schedule.html">赛程赛果</a><a href="data-points.html">赛事数据</a></p></a></li>
+		<li tag="280"><a href="###">数据中心<br><span>DATA</span></a></li>
 		<li tag="420"><a href="index.html">视频图集<br><span>VIDEO</span></a></li>
 		<li tag="560"><a href="index.html">参赛球队<br><span>TEAM</span></a></li>
 		<li tag="700"><a href="index.html">商务合作<br><span>COOPERATION</span></a></li>
@@ -49,7 +49,7 @@ result：
 			<ul>
 				<li tag="0"><a href="index.html">首 页<br><span>HOME</span></a></li>
 				<li tag="140"><a href="index.html">新闻公告<br><span>NEWS</span></a></li>
-				<li tag="280"><a href="###">数据中心<br><span>DATA</span><p style="text-indent:160px"><a href="data-trailer.html">赛事预告</a><a href="data-schedule.html">赛程赛果</a><a href="data-points.html">赛事数据</a></p></a></li>
+				<li tag="280"><a href="###">数据中心<br><span>DATA</span></a></li>
 				<li tag="420"><a href="index.html">视频图集<br><span>VIDEO</span></a></li>
 				<li tag="560"><a href="index.html">参赛球队<br><span>TEAM</span></a></li>
 				<li tag="700"><a href="index.html">商务合作<br><span>COOPERATION</span></a></li>
@@ -71,6 +71,9 @@ gulp.task('html', function() {
 });
 ```
 
+* 2.3.0
+  * fix bugs [bug1](https://github.com/openks/gulp-pre-link/issues/1) and [bug2](https://github.com/openks/gulp-pre-link/issues/2)
+  * 修复bugs [bug1](https://github.com/openks/gulp-pre-link/issues/1) 和 [bug2](https://github.com/openks/gulp-pre-link/issues/2)
 * 2.2.0
   * add new parameter baseUrl if there is no this parameter,the path is based on the same with gulpfile.js
   * 新增参数 baseUrl 如果没有该参数则默认与gulpfile.js同级的相对路径
