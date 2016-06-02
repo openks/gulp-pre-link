@@ -44,6 +44,8 @@ module.exports = function(opts) {
 				file.contents = new Buffer(readFile(addrs, results, content));
 				this.push(file);
 				cb();
+			}else{
+				cb();
 			}
 		}
 	}
