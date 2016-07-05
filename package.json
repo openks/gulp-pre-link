@@ -35,9 +35,8 @@
   },
   "name": "gulp-pre-link",
   "optionalDependencies": {},
-  "readme": "ERROR: No README data found!",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "2.3.2"
+  "version": "2.3.4"
 }
