@@ -71,6 +71,9 @@ gulp.task('html', function() {
 });
 ```
 
+* 2.3.4
+  * fix bugs [bug](https://github.com/openks/gulp-pre-link/issues/5)
+  * 修复bugs [bug](https://github.com/openks/gulp-pre-link/issues/5)
 * 2.3.2
   * fix bugs [bug](https://github.com/openks/gulp-pre-link/issues/4)
   * 修复bugs [bug](https://github.com/openks/gulp-pre-link/issues/4)
